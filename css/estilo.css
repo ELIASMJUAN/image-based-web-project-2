@@ -1,0 +1,30 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #ced6f0;
+}
+section{
+    background-color: white;
+    /* border: black, 2px, solid; */
+    margin: 110px 370px;
+    border-radius: 15px;
+}
+i{
+    color: #4269e2ff;
+}
+div.d1{
+    text-align: center;
+}
+div.d2{
+    display: flex;
+    flex-direction: column;
+    border: black, 2px, solid;
+    padding: 0px 40px;
+}
+div.d3{
+    text-align: center;
+}
