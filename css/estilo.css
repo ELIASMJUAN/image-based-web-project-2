@@ -7,7 +7,6 @@
 }
 body{
     background-color: #ced6f0;
-
 }
 section{
     background-color: white;
@@ -15,20 +14,21 @@ section{
     margin: 110px 350px 110px 350px;
     border-radius: 15px;
 }
+/* inicio div icono */
+div.di{
+    margin: 0px 63%;
+    padding-top: 20px;
+    height: 45px;
+    font-size: 60px;
+}
 i{
     color: #4269e2ff;
-    padding: 20px;
-    height: 100px;
-    width: 50px;
 }
-div.di{
-    margin: 0px 65%;
-    font-size: 100px;
-}
+/* finaliza div icono */
 
 /* Comienza el div D1, h1-h2-p-hr */
 div.d1{
-    padding: 20px 55px;
+    padding: 0px 55px 20px 55px;
 }
 h1{
     text-align: center;
@@ -90,7 +90,8 @@ input{
 button{
     background-color: #367bf5ff;
     color: white;
-    padding: 15px;
+    margin-top: 10pxgit;
+    padding: 20px;
     border: none;
     border-radius: 5px;
 }
