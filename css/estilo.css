@@ -17,6 +17,13 @@ section{
 }
 i{
     color: #4269e2ff;
+    padding: 20px;
+    height: 100px;
+    width: 50px;
+}
+div.di{
+    margin: 0px 65%;
+    font-size: 100px;
 }
 
 /* Comienza el div D1, h1-h2-p-hr */
@@ -27,6 +34,7 @@ h1{
     text-align: center;
     margin-bottom: 30px;
     font-size: 70px;
+    
     font-family: "Bricolage Grotesque", sans-serif;
     font-optical-sizing: auto;
     font-weight: 800;
@@ -45,14 +53,15 @@ p{
     color: #555a5eff;
     font-size: 17px;
     padding: 9px 20px 0px 0px;
+
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 hr{
-    margin: 50px 0px 40px 0px;
-    border: 0.5px, rgb(218, 218, 218), solid;
-    border-style: ;
+    margin: 40px 0px 25px 0px;
+    border: 0.5px, rgba(red, green, blue, alpha);
+    border-style: groove;
 }
 /* Finaliza div d1 */
 
@@ -64,7 +73,12 @@ div.d2{
     padding: 0px 60px;
 }
 label{
-    font-style: bold;
+    font-size: 20px;
+    color: #555a5eff;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 input{
     padding: 25px;
@@ -74,7 +88,7 @@ input{
 
 }
 button{
-    background-color: rgb(93, 130, 241);
+    background-color: #367bf5ff;
     color: white;
     padding: 15px;
     border: none;
@@ -86,6 +100,7 @@ button{
 div.d3{
     padding: 35px 0px 50px 0px;
     text-align: center;
+    font-size: smaller;
 }
 
 /* .roboto-thin {
